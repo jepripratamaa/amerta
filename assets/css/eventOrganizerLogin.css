@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, #5669FF, #ffffff);
+    margin: 0;
+    /* Menghapus margin default dari body */
+    background-repeat: no-repeat;
+}
+
+.textTitle {
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.textSubTitle {
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+}
+
+.button {
+    margin-top: 70px;
+}
+
+.btn {
+    width: 265px;
+    height: 60px;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #5669FF;
+    color: #ffffff;
+    border: #5669FF 1px solid;
+    transition: 0.2s;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn:hover{
+    color: #ffffff;
+    background-color: #3D56F0;
+}
+
+.anotherBtn {
+    width: 265px;
+    height: 60px;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #5669FF;
+    border: #5669FF 1px solid;
+    transition: 0.2s;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.anotherBtn:hover {
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.textForm {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form-control {
+    height: 60px;
+    border-radius: 15px;
+    font-size: 14px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-control:focus {
+    outline: none !important;
+    border-color: #5669FF;
+    border: solid #5669FF 1px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+hr {
+    border-color: #000000;
+    border-width: 2px;
+    width: 100px;
+}
+
+.signupText {
+    font-size: 14px;
+}
+
+.signupBtn {
+    text-decoration: none;
+    color: #5669FF;
+    transition: 0.2s;
+}
+
+.signupBtn:hover {
+    color: #3D56F0;
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #5669FF;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.navbar {
+    /* background-color: #5669FF; */
+    color: white;
+    font-size: 16px;
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    /* Hilangkan underline default */
+}
+
+.nav-link.active::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transition: width 0.3s;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+    text-decoration-skip-ink: none;
+}
+
+.homeLeft {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: start;
+    line-height: 50px;
+}
+
+.leftAccent {
+    color: #18213A;
+}
+
+.homeRight {
+    text-align: end;
+}
+
+.startBtn {
+    font-size: 18px;
+    font-weight: 500;
+    width: 240px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #3D56F0;
+    border: #FFFFFF solid 2px;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+.startBtn:hover {
+    background-color: #FFFFFF;
+    border: #FFFFFF solid 2px;
+    color: #3D56F0;
+}
+
+.aboutLeft {
+    text-align: start;
+}
+
+.rightAccent {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+
+.aboutRight {
+    text-align: justify;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.profileTitle {
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.profileSubTitle {
+    font-size: 17px;
+
+    color: #ffffff;
+}
+
+.profileBorder {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 70px;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+.footerTitle {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.copyright {
+    color: #FFFFFF;
+}
